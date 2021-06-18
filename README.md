@@ -1,17 +1,8 @@
-# CASE STUDY-RETAIL
 
 # WALMART STORE SALES PREDICTION - FORECASTING
 
-## Business Context:
 
-The objective is predicting store sales using historical markdown data.
-One challenge of modelling retail data is the need to make decisions based on limited
-history. If Christmas comes but once a year, so does the chance to see how strategic
-decisions impacted the bottom line.
-
-## Data Availability & Business Problem:
-
-You are provided with historical sales data for 45 Walmart stores located in different
+ Walmart stores located in different
 regions. Each store contains a number of departments, and you are tasked with predicting
 the department-wide sales for each store.
 In addition, Walmart runs several promotional markdown events throughout the year.
@@ -21,6 +12,15 @@ weighted five times higher in the evaluation than non-holiday weeks. Part of the
 presented by this competition is modelling the effects of markdowns on these holiday
 weeks in the absence of complete/ideal historical data.
 
- **stores.csv:** This file contains anonymized information about the 45 stores, indicating
-the type and size of the store.
- **train.csv:** This is the historical training data.  
+#data import, basic operations and visualisations
+# Quick Function to check for missing Values
+#UDF to Create Numerical Data Audit Report
+#Creating a complete dataframe to work with
+Merging train, store and features
+Merging test, store and features
+#Spliting numeric and Categorical data from train
+#Splitting Categorical and Numerical Data for test dataset
+#Data Exploratory Analysis
+#Department wise sales visualisation
+#Creating new features in training dataset
+Temperature is in farehnheit, changing it to celcuis scale
